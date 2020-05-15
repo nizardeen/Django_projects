@@ -6,5 +6,5 @@ urlpatterns = [
 	# Api for create
     url('create',views.create,name='create'),
     # Api for browse
-    url(r'^browse/$',views.browse,name='getSymbolData'),
+    url(r'^browse/$',views.browse,name='browse'),
 ]
